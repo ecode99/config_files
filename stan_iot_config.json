@@ -4,6 +4,7 @@
             "device_id": "esp32wr1",
             "name": "Stan Bedroom",
             "enabled": 1,
+            "role": "bedroom",
             "sensors": [
                 {
                     "type": "SHT31-D",
