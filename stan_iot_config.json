@@ -1,0 +1,27 @@
+{
+    "device_list": [
+        {
+            "device_id": "esp32wr1",
+            "name": "Stan Bedroom",
+            "enabled": 1,
+            "sensors": [
+                {
+                    "type": "SHT31-D",
+                    "pin_sda": 21,
+                    "pin_scl": 22,
+                    "temperature_calibration": 0.0,
+                    "humidity_calibration": 0.0
+                },
+                {
+                    "type": "MOTION",
+                    "pin_gpio": 27
+                }
+            ]
+        }
+    ],
+    "global_device_config": {
+        "heartbeat_period": 30000,
+        "motion_wait_period": 10000,
+        "check_for_config_updates": 60000
+    }
+}
