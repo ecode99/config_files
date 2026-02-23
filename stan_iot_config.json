@@ -19,7 +19,7 @@
                 },
                 {
                     "type": "INPUT_PIN",
-                    "pin_gpio": 18
+                    "pin_gpio": 23
                 }
             ]
         }
