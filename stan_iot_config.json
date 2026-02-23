@@ -15,11 +15,11 @@
                 },
                 {
                     "type": "MOTION",
-                    "pin_gpio": 19
+                    "pin_gpio": 23
                 },
                 {
                     "type": "INPUT_PIN",
-                    "pin_gpio": 23
+                    "pin_gpio": 19
                 }
             ]
         }
