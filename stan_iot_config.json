@@ -1,8 +1,8 @@
 {
     "device_list": [
         {
-            "device_id": "esp32wr1",
-            "name": "Stan Bedroom",
+            "device_id": "esp32stan1",
+            "name": "Stan Bathroom",
             "enabled": 1,
             "role": "bedroom",
             "sensors": [
