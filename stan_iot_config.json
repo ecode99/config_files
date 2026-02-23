@@ -27,6 +27,6 @@
     "global_device_config": {
         "heartbeat_period": 30000,
         "motion_wait_period": 10000,
-        "check_for_config_updates": 60000
+        "check_for_config_updates": 30000
     }
 }
