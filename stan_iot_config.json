@@ -3,7 +3,7 @@
         {
             "device_id": "esp32stan1",
             "enabled": 1,
-            "role": "bathroom",
+            "role": "bath_room",
             "sensors": [
                 {
                     "type": "SHT31-D",
