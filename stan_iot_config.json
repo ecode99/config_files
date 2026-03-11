@@ -1,32 +1,39 @@
-{
-    "device_list": [
-        {
-            "device_id": "esp32stan1",
-            "mac": "142B2FC66488",
-            "enabled": 1,
-            "role": "bathroom",
-            "sensors": [
-                {
-                    "type": "SHT31-D",
-                    "pin_sda": 21,
-                    "pin_scl": 22,
-                    "temperature_calibration": 0.0,
-                    "humidity_calibration": 0.0
-                },
-                {
-                    "type": "MOTION",
-                    "pin_gpio": 4
-                },
-                {
-                    "type": "INPUT_PIN",
-                    "pin_gpio": 19
-                }
-            ]
-        }
-    ],
-    "global_device_config": {
-        "heartbeat_period": 300000,
-        "motion_cooldown_period": 30000,
-        "check_for_config_updates": 300000
-    }
-}
+  {
+      "device_list": [
+          {
+              "device_id": "stan_bathroom",
+              "mac": "142B2FC66488",
+              "enabled": 1,
+              "role": "bathroom",
+              "sensors": [
+                  {
+                      "type": "SHT31-D",
+                      "pin_sda": 21,
+                      "pin_scl": 22,
+                      "temperature_calibration": 0.0,
+                      "humidity_calibration": 0.0
+                  },
+                  {
+                      "type": "MOTION",
+                      "pin_gpio": 4
+                  },
+                  {
+                      "type": "INPUT_PIN",
+                      "pin_gpio": 19
+                  }
+              ]
+          },
+          {
+              "device_id": "stan_figurine",
+              "mac": "CCDBA79E8A0C",
+              "enabled": 1,
+              "role": "figurine",
+              "sensors": []
+          }
+      ],
+      "global_device_config": {
+          "heartbeat_period": 300000,
+          "motion_cooldown_period": 30000,
+          "check_for_config_updates": 300000
+      }
+  }
